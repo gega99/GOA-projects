@@ -1,0 +1,13 @@
+weather - ამინდი
+city - ქალაქი
+Rearrange  - გადაადგილე
+parentheses - ფრჩხილები
+variety - სხვადასხვა
+incorrect  - არასწორი
+loss - დაკარგვა / დამარცხება
+select - არჩევა
+handle - გამკლავება
+tell - თქმა
+survey - გამოკითხვა ensure - უზუნველყოფა
+similar - მსგავსი
+explicit

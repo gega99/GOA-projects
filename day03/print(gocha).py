@@ -1,0 +1,6 @@
+print(gocha)
+print(nato)
+print(gega)
+print(giorgi)
+print(natia)
+print(teona)

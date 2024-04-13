@@ -1,0 +1,8 @@
+print(5> 6)
+print(10 < 20)
+print(10 >= 10)
+print(10 >= 10)
+print(15 == 15)
+print(10 != 10)
+print(False and True)
+print(True and True)
