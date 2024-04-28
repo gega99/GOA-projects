@@ -8,5 +8,8 @@ for i in range(0,101 ):
   i = i - 1
 
 
-for i in range(2,4,6,8,10,13,14,16,18,20,22,24,26,28,30):
+for i in range(2,100,7):
  print(i)
+
+ while 5 > 5:
+   print(i)
