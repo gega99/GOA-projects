@@ -1,4 +1,20 @@
+body{
+    background-color: cyan;
+background-image: url("fone.jpg");
+}
+
 p{color: blue;
 font-size: xx-large;
+font-weight: 400;
+color: blueviolet;
 
+}
+h1{
+    color: blue;
+    background-color: aqua;
+}
+
+h1 {
+    color: rgba(247, 0, 255, 0.836);
+    text-align: center;
 }
