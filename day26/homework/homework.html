@@ -1,1 +1,210 @@
-<p>avawye sporti </p>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფეხსაცმელების მაღაზია</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff758c;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            padding: 15px 25px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ff527b;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background-image: url('shoes-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero h2 {
+            font-size: 52px;
+            font-weight: 800;
+            z-index: 1;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 60px 0;
+            background-color: #fff;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px;
+            width: 320px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .product-info {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .product-info h3 {
+            margin: 0 0 15px 0;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .product-info p {
+            font-size: 20px;
+            color: #ff758c;
+            margin: 0 0 20px 0;
+        }
+
+        .product-info button {
+            padding: 12px 28px;
+            background-color: #ff758c;
+            border: none;
+            color: #fff;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-info button:hover {
+            background-color: #ff527b;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ფეხსაცმელების ონლაინ მაღაზია</h1>
+    </header>
+
+    <nav>
+        <a href="#">მთავარი</a>
+        <a href="#">პროდუქტები</a>
+        <a href="#">კონტაქტი</a>
+    </nav>
+
+    <div class="hero">
+        <h2>მოდური ფეხსაცმელები</h2>
+    </div>
+
+    <section class="products">
+        <div class="product">
+            <img src="shoes1.jpg" alt="ფეხსაცმელი 1">
+            <div class="product-info">
+                <h3>სპორტული ფეხსაცმელი</h3>
+                <p>₾200.00</p>
+                <button>ყიდვა</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="shoes2.jpg" alt="ფეხსაცმელი 2">
+            <div class="product-info">
+                <h3>კლასიკური ფეხსაცმელი</h3>
+                <p>₾180.00</p>
+                <button>ყიდვა</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="shoes3.jpg" alt="ფეხსაცმელი 3">
+            <div class="product-info">
+                <h3>ქალის მოდური ფეხსაცმელი</h3>
+                <p>₾250.00</p>
+                <button>ყიდვა</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 ფეხსაცმელების ონლაინ მაღაზია. ყველა უფლება დაცულია.</p>
+    </footer>
+
+</body>
+              </html>
